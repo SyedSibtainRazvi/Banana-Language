@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+nav {
+    text-align: center;
+    background-image: url(/cover.jpg);
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 0 0 18px 18px;
+
+}
+
+textarea {
+    width: 60%;
+    padding: 2rem 2rem;
+    height: 25vh;
+    margin: 2rem auto;
+    display: block;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    overflow: hidden;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.hero-btn {
+    border: none;
+    background-color: #F7C650;
+    margin: 1rem 2rem;
+    padding: 1rem 1rem;
+    letter-spacing: 1px;
+    font-size: larger;
+    border-radius: 12px;
+}
+
+.btn-secondary {
+    border: 2px solid #F7C650;
+    background-color: wheat;
+    margin: 1rem 2rem;
+    padding: 0.9rem 1rem;
+    letter-spacing: 1px;
+    font-size: larger;
+    border-radius: 12px;
+}
+
+#output {
+    width: 60%;
+    padding: 2rem 2rem;
+    height: 25vh;
+    margin: 2rem auto;
+    display: block;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    overflow: hidden;
+}
+
+footer {
+    text-align: center;
+    background-image: url(/bg.png);
+    background-size: cover;
+    padding: 1rem;
+    font-size: 1rem;
+}

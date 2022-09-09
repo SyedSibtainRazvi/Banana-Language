@@ -29,6 +29,5 @@ btnTranslate.addEventListener("click", clickHandler)
 document.getElementById("clear").addEventListener("click", erase);
 
 function erase() {
-    document.getElementById("output").value = "";
-    document.getElementById("text-input").value = "";
+    window.location.reload()
 }
